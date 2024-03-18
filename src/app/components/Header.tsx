@@ -13,7 +13,7 @@ const Header = () => {
         }
     };
     return (
-        <AppBar position="static">
+        <AppBar position="static" sx={{padding: '20px 50px'}}>
             <Toolbar>
                 <Stack direction={{ xs: 'column', sm: 'row' }} alignItems={{ xs: 'center', sm: 'flex-start' }} justifyContent="space-between" sx={{ width: '100%' }}>
                     <Stack direction="row" alignItems="center">

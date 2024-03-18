@@ -2,11 +2,3 @@
 @import '@fontsource/roboto/400.css';
 @import '@fontsource/roboto/500.css';
 @import '@fontsource/roboto/700.css';
-
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-    border-bottom: 2px solid #fff ;
-    padding: 20px 50px;
-}

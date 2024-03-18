@@ -6,9 +6,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 // import '@pigment-css/react/styles.css';
 import theme from './theme';
 import './globals.css';
-import Header from './components/Header'
-import SearchBar from './components/SearchBar'
-import TableComponent from './components/TableComponent';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,9 +19,6 @@ export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        <SearchBar/>
-        <TableComponent/>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
             <CssBaseline />
